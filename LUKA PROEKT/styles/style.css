@@ -1,0 +1,31 @@
+.page-section {
+    display: none;
+  }
+  .page-section.active {
+    display: block;
+  }
+  .nav-link.active {
+    font-weight: bold;
+  }
+  footer {
+    position: fixed;
+    background-color: whitesmoke;
+  }
+  #productList .card {
+    width: 18rem;
+  }
+  .card {
+    position: relative;
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .card-description {
+    overflow: hidden;
+    display: block;
+    white-space: pre-wrap;
+  }
